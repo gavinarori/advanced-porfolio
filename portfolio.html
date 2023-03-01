@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/195654c107.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">.portfolio</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#porfolio">porfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.instagram.com/brevia_dos/"><i class="fa-brands fa-instagram"></i>instagram</a>
+        <a href="https://twitter.com/gavinogwanwa"><i class="fab fa-twitter"></i>twitter</a>
+        <a href="https://github.com/gavinarori"><i class="fa-brands fa-github"></i>Github</a>
+        <a href="https://www.linkedin.com/in/gavin-arori-5b767122b"><i class="fa-brands fa-linkedin"></i>linkedin</a>
+        
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Gavin Arori</div>
+        <div class="text-three">Frontend Developer</div>
+        <div class="text-four">From Nairobi, kenya</div>
+      </div>
+      <div class="button">
+        <button>Hire Me</button>
+      </div>
+    </div>
+  </section>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="project1/img_tmp_tag1665894928386_2.jpg"height="">
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About me</h1>
+            <p>Hard-working web developer with a flair for creating elegant solutions in the least amount of time. Developed an ecommerce web app, customer web portal, documentary launch website, and donations web app for a local charity.
+              Passionate about software architecture and cloud computing. Regular attendee of web developer meetups and
+              hackathons.</p>
+            
+            <div class="tab-titles">
+              <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+              <p class="tab-links"onclick="opentab('experience')">Experience</p></p>
+              <p class="tab-links"onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>front-end developer</span><br>making user interactive websites</li>
+                <li><span>web development</span><br>web app development</li>
+                <li><span>app development</span><br>building android/ios apps</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li><span>2021-current</span><br>lead microsoft websites</li>
+                <li><span>2017-2019</span><br>cion digital ltd</li>
+                <li><span>2016-2017</span><br>internship ecommerce</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2016</span><br>codecademy</li>
+                <li><span>2016</span><br>coursera</li>
+                <li><span>2014</span><br>simplilearn</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!---------------------services------------->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>web design</h2>
+        <p>primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website's performance and capacity</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-paintbrush"></i>
+        <h2>UI/UX design</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deleniti expedita commodi amet nostrum harum voluptatum iste soluta minus quae quisquam cumque, quasi perferendis, id ex tempore temporibus error corrupti!</p>
+        <a href="#">learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>APP development</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, deleniti expedita commodi amet nostrum harum voluptatum iste soluta minus quae quisquam cumque, quasi perferendis, id ex tempore temporibus error corrupti!</p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!----------porfolio---------------->
+<div id="porfolio">
+  <div class="container">
+    <h1 class="sub-title">My porfolio</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="project1/Mostudio.jpg" alt="">
+        <div class="layer">
+          <h3>my pofolio</h3>
+          <p>link up to the world</p>
+          <!--place a font link in the a tag-->
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="project1/try.png" alt="">
+        <div class="layer">
+          <h3>my reactapp</h3>
+          <p>link up to the world</p>
+          <!--place a font link in the a tag-->
+          <a href="#"><i class="fa-solid fa-link"></i></a>
+      </div>
+    </div>
+  </div>
+  <a href="#"class="btn">see more</a>
+</div>
+<!-------------------contact------------------------------>
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">contact me</h1>
+        <p>arorigavincode@gmail.com</p>
+        <p>+254705470037</p>
+        <div class="social-icons">
+          <!---add icon links-->
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+          <a href=""></a>
+        </div>
+        <a href="./project1/Resume-Gavin-Arori.pdf" download class="btn btn2">Download Resume</a>
+        </div>
+        <div class="contact-right">
+          <form action="">
+            <input type="text"name="name"placeholder="your Name"required>
+            <input type="email"name="email"placeholder="your Email"required>
+            <textarea name="message" rows="6"placeholder="your Message"></textarea>
+            <button type="submit" class="btn btn2 ">submit</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>gavin arori | © 2022 All Rights Reserved.</p>
+  </div>
+</div>
+
+
+    <script>
+     var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+    
+     function opentab(tabname){
+      
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+      
+     }
+
+    </script>
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right ="0";
+      }
+      function closemenu(){
+        sidemenu.style.right ="- 200px  ";
+      }
+
+    </script>
+     <script>
+      // Sticky Navigation Menu Js
+
+let nav = document.querySelector("nav");
+let scrollBtn = document.querySelector(".scroll-button a");
+
+let val;
+
+window.onscroll = function() {
+  if(document.documentElement.scrollTop > 20){
+    nav.classList.add("sticky");
+    scrollBtn.style.display = "block";
+  }else{
+    nav.classList.remove("sticky");
+    scrollBtn.style.display = "none";
+  }
+}
+
+// Side Navigation Menu Js
+let body = document.querySelector("body");
+let navBar = document.querySelector(".navbar");
+let menuBtn = document.querySelector(".menu-btn");
+let cancelBtn = document.querySelector(".cancel-btn");
+
+menuBtn.onclick = function() {
+  navBar.classList.add("active");
+  menuBtn.style.opacity = "0";
+  menuBtn.style.pointerEvents = "none";
+  body.style.overflowX = "hidden";
+  scrollBtn.style.pointerEvents = "none";
+}
+
+cancelBtn.onclick = function() {
+  navBar.classList.remove("active");
+  menuBtn.style.opacity = "1";
+  menuBtn.style.pointerEvents = "auto";
+  body.style.overflowX = "auto";
+  scrollBtn.style.pointerEvents = "auto";
+}
+
+// Side Navigation Bar Close While We click On Navigation Links
+
+let navLinks = document.querySelectorAll(".menu li a");
+for (var i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener("click" , function() {
+    navBar.classList.remove("active");
+    menuBtn.style.opacity = "1";
+    menuBtn.style.pointerEvents = "auto";
+  });
+}
+     </script>
+</body>
+</html>
